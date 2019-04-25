@@ -1,20 +1,20 @@
-package com.designPattern.study.command;
+package com.designPattern.command;
 
 /**
  * @Author: yanghw
  * @Date: 2019/4/24
  * @Description:
  */
-public class LightOnCommand implements Command {
+public class LightOffCommand implements Command {
 
     private Light light;
 
-    LightOnCommand(Light light){
+    LightOffCommand(Light light){
         this.light = light;
     }
 
     @Override
     public void execute() {
-        light.lightOn();
+        light.lightOff();
     }
 }

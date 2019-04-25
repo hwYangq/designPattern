@@ -1,4 +1,4 @@
-package com.designPattern.study.adpter;
+package com.designPattern.adpter;
 
 /**
  * @Author: yanghw

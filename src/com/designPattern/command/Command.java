@@ -1,4 +1,4 @@
-package com.designPattern.study.command;
+package com.designPattern.command;
 
 /**
  * @Author: yanghw
